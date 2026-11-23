@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ArtSpace</string>
+    <string name="p1">1 / 6</string>
+    <string name="p2">Artwork Title</string>
+    <string name="p3">Artist - Year</string>
+    <string name="p4">Previous</string>
+    <string name="p5">Next</string>
+
+    <string name="p_1">ART SPACE</string>
+    <string name="p_2">Artwork Details</string>
+    <string name="p_3">Back to Gallery</string>
+    <string name="p_4">Visit Website</string>
+</resources>

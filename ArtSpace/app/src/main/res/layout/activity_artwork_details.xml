@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#FFF4EC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p_1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#96501F"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/p_2"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#292323"
+        android:layout_marginBottom="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:background="#FFFFFF"
+        android:elevation="6dp">
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/p_2"
+            android:textSize="22sp"
+            android:textColor="#44352D"
+            android:gravity="center"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/p_3"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#96501F"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="@string/p_4"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#96501F"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
